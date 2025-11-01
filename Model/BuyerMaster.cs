@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace SbnApplication.Model
 {
-    public class BuyerMaster
+    public class SampleMaster
     {
         public int Id { get; set; }
-        public string Name { get; set; } //isi sesuai form
+        public string Name { get; set; }
+        public string Email { get; set; }
+        public int PhoneNumber { get; set; }
+        public string Address { get; set; }
 
-        public string Description { get; set; }
-        public string BillingAddress { get; set;
-
+        public DateTime CreatedAt { get; set; }
     }
 }
